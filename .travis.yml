@@ -39,6 +39,13 @@ before_install:
 
 install:
 
+# Instalar YARP
+
+  - sudo apt-get install libeigen3-dev
+
+# Instalar OpenCV
+
+  - sudo apt-get install libopencv-dev
 
 # Tareas a ejecutar antes de nuestra prueba
 
