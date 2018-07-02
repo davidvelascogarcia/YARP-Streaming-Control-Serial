@@ -45,6 +45,7 @@ install:
 before_script:
   - cd programs
   - cd YARP_Streaming_Control_Emisor
+  - mkdir build
   - cd build
   - cmake ..
 
