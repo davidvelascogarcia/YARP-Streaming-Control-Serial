@@ -1,4 +1,5 @@
 # YARP: Streaming Control Serial
+[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control-Serial.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control-Serial)
 
 - [Introducción](#introducción)
 - [Enlaces de interés](#enlaces-de-interés)
