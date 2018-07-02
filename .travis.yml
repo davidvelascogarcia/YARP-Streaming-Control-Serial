@@ -43,7 +43,7 @@ install:
 # Tareas a ejecutar antes de nuestra prueba
 
 before_script:
-  - cd build
+  - cd programs/YARP_Streaming_Control_Emisor/build
   - cmake ..
 
 # Compilamos
