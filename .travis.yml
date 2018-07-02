@@ -68,7 +68,7 @@ script:
 
 after_success:
   - sudo make install
-  - ./emisor_control
+#  - ./emisor_control
   - sudo make uninstall
 
 # Notificaciones por correo
