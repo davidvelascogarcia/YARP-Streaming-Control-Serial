@@ -1,0 +1,24 @@
+<!--- YARPMANAGER YARP: Streaming Controller -->
+
+<application>
+
+<!--- Nombre aplicación -->
+
+<name>YARP Streaming Controller</name>
+
+<!--- Módulo de recepción de control vía YARP con comunicación Serial -->
+
+    <module>
+        <name>receptor_control</name>
+	<workdir>/home/davidvelascogarcia/Proyectos/YARP_Streaming_Control_Serial/YARP_Streaming_Control_Receptor/build</workdir> 
+        <node>localhost</node>
+    </module>
+
+<!--- Módulo de inicio servidor YARP -->
+
+    <module>
+        <name>yarpserver</name>
+        <node>localhost</node>
+    </module>
+
+</application>
