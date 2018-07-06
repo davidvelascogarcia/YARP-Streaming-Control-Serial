@@ -10,7 +10,7 @@
 
     <module>
         <name>receptor_control</name>
-	<workdir>/home/davidvelascogarcia/Proyectos/YARP_Streaming_Control_Serial/YARP_Streaming_Control_Receptor/build</workdir> 
+	<workdir>./YARP_Streaming_Control_Receptor/build</workdir> 
         <node>localhost</node>
     </module>
 
