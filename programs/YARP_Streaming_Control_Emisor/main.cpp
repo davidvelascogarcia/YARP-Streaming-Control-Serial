@@ -44,7 +44,7 @@ int main()
 	Bottle dato;
 	
 	char orden='0';
-	while(orden!='l'){
+	while(orden!='q'){
 
     	cout<<"¿Qué desea hacer?, escriba la orden y presione enter."<<endl;
     	cout<<"a. Adelante"<<endl;
@@ -57,8 +57,17 @@ int main()
 	cout<<"h. Mirar a la izquierda"<<endl;
 	cout<<"i. Mirar hacia arriba"<<endl;
 	cout<<"j. Mirar hacia abajo"<<endl;
-	cout<<"k. Modo B"<<endl;
-	cout<<"l. Desconectar"<<endl;
+	cout<<"k. Activar modo autónomo"<<endl;
+	cout<<"l. Desactivar modo autónomo"<<endl;
+	cout<<"m. Activar modo vigía"<<endl;
+	cout<<"n. Desactivar modo vigía"<<endl;
+	cout<<"o. Activar modo control telemático"<<endl;
+	cout<<"p. Desactivar modo control telemático"<<endl;
+	cout<<"r. Activar modo análisis"<<endl;
+	cout<<"s. Desactivar modo análisis"<<endl;
+	cout<<"y. Activar modo defensa"<<endl;
+	cout<<"u. Desactivar modo defensa"<<endl;
+	cout<<"q. Desconectar"<<endl;
 	dato.clear();
 	cout<<endl;
 	cin>>orden;
@@ -143,13 +152,75 @@ int main()
 		
 		case 'k':
 		
-		cout<<"Ha seleccionado la opción Modo B"<<endl;
+		cout<<"Ha seleccionado la opción Activar Modo Autónomo"<<endl;
 		dato.addString(s);
 		puerto_envio.write(dato);
 		break;
 
-
 		case 'l':
+		
+		cout<<"Ha seleccionado la opción Desactivar Modo Autónomo"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'm':
+		
+		cout<<"Ha seleccionado la opción Activar Modo Vigía"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'n':
+		
+		cout<<"Ha seleccionado la opción Desactivar Modo Vigía"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'o':
+		
+		cout<<"Ha seleccionado la opción Activar Modo Control Telemático"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'p':
+		
+		cout<<"Ha seleccionado la opción Desactivar Modo Control Telemático"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'r':
+		
+		cout<<"Ha seleccionado la opción Activar Modo Análisis"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 's':
+		
+		cout<<"Ha seleccionado la opción Desactivar Modo Análisis"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'y':
+		
+		cout<<"Ha seleccionado la opción Activar Modo Defensa"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'u':
+		
+		cout<<"Ha seleccionado la opción Desactivar Modo Defensa"<<endl;
+		dato.addString(s);
+		puerto_envio.write(dato);
+		break;
+
+		case 'q':
 		
 		cout<<"Ha seleccionado la opción Desconectar"<<endl;
 
