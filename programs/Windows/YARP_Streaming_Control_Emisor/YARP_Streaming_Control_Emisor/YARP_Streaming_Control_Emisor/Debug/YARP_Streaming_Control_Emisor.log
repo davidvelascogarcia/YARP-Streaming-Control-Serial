@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  YARP_Streaming_Control_Emisor.cpp
+YARP_OSd.lib(YARP_OSd.dll) : fatal error LNK1112: tipo de equipo del m¾dulo 'x64' en conflicto con tipo de equipo de destino 'x86'
