@@ -3,6 +3,6 @@
 
     <module>
         <name>receptor_control</name>
-	<workdir>./YARP_Streaming_Control_Receptor/build</workdir> 
+	<workdir>./linux/YARP_Streaming_Control_Receptor/build</workdir> 
         <node>localhost</node>
     </module>
