@@ -15,4 +15,4 @@ Se adjunta el listado de aplicaciones implementadas en [./programs](./programs).
 
 ## Enlaces de interés
 
-[YARP](www.yarp.it)
+* [YARP](www.yarp.it)
