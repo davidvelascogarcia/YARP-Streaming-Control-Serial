@@ -44,7 +44,7 @@ int main()
     Network yarp;
     cout<<"Iniciando red de YARP"<<endl;
     Port puerto_receptor;
-    puerto_receptor.open("/receptor_control");
+    puerto_receptor.open("/yarpStreamingControlSerial/data:i");
     cout<<"Esperando órdenes..."<<endl;	
     Serial com("/dev/ttyS1",9600,8,'N',1); 
     cout<<"Preparando sub-comunicación serie"<<endl;

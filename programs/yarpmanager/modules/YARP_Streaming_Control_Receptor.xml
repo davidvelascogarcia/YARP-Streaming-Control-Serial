@@ -1,8 +1,0 @@
-
-<!--- Módulo de recepción de control vía YARP con control Serial -->
-
-    <module>
-        <name>receptor_control</name>
-	<workdir>./linux/YARP_Streaming_Control_Receptor/build</workdir> 
-        <node>localhost</node>
-    </module>
