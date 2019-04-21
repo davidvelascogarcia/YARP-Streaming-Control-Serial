@@ -55,7 +55,8 @@ install:
 before_script:
   - cd programs
   - cd linux
-  - cd YARP_Streaming_Control_Emisor
+  - cd yarpStreamingControlSerial
+  - cd sender
   - mkdir build
   - cd build
   - cmake ..
@@ -69,7 +70,6 @@ script:
 
 after_success:
   - sudo make install
-#  - ./emisor_control
   - sudo make uninstall
 
 # Notificaciones por correo
