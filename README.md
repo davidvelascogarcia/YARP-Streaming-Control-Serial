@@ -16,7 +16,7 @@ Se adjunta el listado de aplicaciones implementadas en [./programs](./programs).
 
 ## Status
 
-[![Build Status](https://travis-ci.org/davidvelascogarcia/yarp-streaming-control-sreial.svg?branch=develop)](https://travis-ci.org/davidvelascogarcia/yarp-streaming-control-serial)
+[![Build Status](https://travis-ci.org/davidvelascogarcia/yarp-streaming-control-serial.svg?branch=develop)](https://travis-ci.org/davidvelascogarcia/yarp-streaming-control-serial)
 
 [![Issues](https://img.shields.io/github/issues/davidvelascogarcia/yarp-streaming-control-serial.svg?label=Issues)](https://github.com/davidvelascogarcia/yarp-streaming-control-serial/issues)
 
